@@ -17,6 +17,7 @@ if(isset($GET['url'])){
     <?php require_once "google_seo.php"; ?>
 </head>
 <body>
+<!--Esto no jala -->
     <?php
     include "header.php";
 
