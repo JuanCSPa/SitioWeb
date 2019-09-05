@@ -8,8 +8,8 @@ if(isset($GET['url'])){
 ?>
 <!DOCTYPE html>
 <?php
-    $urlBase='http:127.0.0.1/enstehuacan';
-    //$urlBase='http:enstehuacan.com';
+    $urlBase='http:127.0.0.1/enstehuacan/';
+    //$urlBase='http:enstehuacan.com/';
 ?>
 <html>
 <head>
@@ -19,13 +19,14 @@ if(isset($GET['url'])){
 <body>
     <?php
     include "header.php";
+
     if (file_exists($actual.".php")) {
         include $actual.".php";
-    }else{
+    }
+    else {
         include "inicio.php";
     }
-        include "footer.php";
-    
+    include "footer.php";
     ?>
 </body>
 </html>

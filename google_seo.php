@@ -3,11 +3,11 @@
     switch($actual){
         case 'Inicio':
         $titulo = "";
-        $title = "La Escuela Normal Superior de Tehuacan (ENST) nace en 2007, sin embargo su historia se remonta aun mas atras, la educacion normal superior de tehuacan
+        $title = "| Escuela Normal Superior de Tehuacan";
+        $metaDesc = "La Escuela Normal Superior de Tehuacan (ENST) nace en 2007, sin embargo su historia se remonta aun mas atras, la educacion normal superior de tehuacan
         comienza con los cursos intensivos de la Normal Superior del Estado en 1995, a cargo del Maestro Alejandro Aguilar Flores, posteriormente en el año 2000,
         estos cursos se convierten en los cursos de la Escuela Normal Superior del Estado, con el Maestro Alejandro Aguilar aun en funciones, posteriormente la
         coordinacion de los recursos pasaron a cargo del Maestro Gerardo Espinoza Santiago.";
-        $metaDesc = "Escuela Normal";
         $metakeys = "educacion, primaria, secundaria, preescolar, escuela, normal, superior de, tehuacan, esducacion primaria, educacion preescolar, edacucion secundaria,
         maestros, educar, universidad normal superiror de tehuacan, nomal, normalistas, nuevo, magisterio, profesorres, educadores, maestros, alumnos, 
         estudiantes";
@@ -124,6 +124,8 @@
 
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
+
 	<!-- CSS ============================================= -->
 	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -134,6 +136,7 @@
 	<link rel="stylesheet" href="css/jquery-ui.css">			
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+
 
 <!-- Scripts Java -->
 
@@ -150,4 +153,4 @@
 	<script src="js/owl.carousel.min.js"></script>						
 	<script src="js/jquery.nice-select.min.js"></script>							
 	<script src="js/mail-script.js"></script>	
-	<script src="js/main.js"></script>	
+	<script src="js/main.js"></script>
